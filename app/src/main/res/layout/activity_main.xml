@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25ed0b"
+    tools:context="com.example.nilaksh.loginform.MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="First Name"
+        android:textColor="#131111"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/txtfname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Last Name"
+        android:textColor="#131111"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/textView"
+
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+
+        android:layout_marginTop="400dp"
+        android:onClick="login"
+        android:text="login"
+        tools:ignore="OnClick" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/txtlname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="password"
+        android:textColor="#131111"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="140dp"
+        android:inputType="textPassword"
+        android:id="@+id/txtpass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="email"
+        android:textColor="#131111"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/txtemail"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="phone"
+        android:textColor="#131111"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/txtphone" />
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+
+        android:layout_marginTop="400dp"
+
+        android:text="Register"
+        />
+
+
+
+
+
+</RelativeLayout>
